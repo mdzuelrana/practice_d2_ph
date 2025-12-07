@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.inputs{
+    width: 300px;
+    border: 1px solid aqua;
+    border-radius: 4px;
+    padding: 4px;
+}
+.inputs:hover{
+    border: 1px solid aqua;
+}
+
+.container,.cdetail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dg{
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+.detailc{
+    width: 300px;
+    height: 450px;
+    margin: 5px;
+    padding: 3px;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 6px 8px gray;
+    cursor:pointer;
+}
+.dt{
+    width: 300px;
+    height: auto;
+    margin: 5px;
+    padding: 3px;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 6px 8px gray;
+    cursor:pointer;
+}
+.edv{
+    width: 500px;
+    height: auto;
+    margin: 5px;
+    padding: 3px;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 6px 8px gray;
+    cursor:pointer;
+    text-align: center;
+
+}
+.container{
+    padding-bottom: 50px;
+    
+}
